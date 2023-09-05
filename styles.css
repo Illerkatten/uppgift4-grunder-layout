@@ -1,0 +1,48 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+article,
+footer {
+    background-color: rgb(97, 244, 97);
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    width: 75vw;
+    text-align: center;
+}
+
+.right,
+.left {
+    margin-left: 0.5rem;
+    width: 35vw;
+    height: 90vh;
+    padding: 1rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
